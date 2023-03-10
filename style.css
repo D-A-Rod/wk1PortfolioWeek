@@ -1,0 +1,98 @@
+body {
+  /*background-image: url(background.jpeg);*/
+  background-color: rgb(181, 144, 133);
+  font-family: fantasy;
+  font-size: x-large;
+  border: 3px solid black;
+}
+
+.home {
+  display: flex;
+  margin: 14rem;
+  padding-left: 13%;
+}
+
+.home:hover {
+  transition: all 3s;
+  transform: scale(1.7);
+  color: rgb(90, 48, 34);
+}
+
+nav {
+  padding-left: 80%;
+}
+
+a {
+  
+  color: rgb(90, 48, 34);
+}
+
+.subIntro {
+  list-style: none;
+}
+
+img {
+  width: 250px;
+}
+
+.projectCard {
+  height: 30rem;
+  width: 40rem;
+}
+
+.aboutHead {
+  text-align: center;
+
+}
+
+.aboutSection {
+  text-align: center;
+  width: 50rem;
+  padding-left: 20%;
+}
+
+.mainCardSection {
+  display: flex;
+  justify-content: space-evenly;
+  /*text-align: center;*/
+  padding-top: 10rem;
+  padding-left: 1rem;
+  padding-bottom: 10rem;
+}
+
+.projectCard {
+}
+
+.footer {
+  padding: 2rem;
+}
+.footerImg {
+  height: 5rem;
+  width: 5rem;
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: aqua;
+    font-size: medium;
+    color: black;
+
+  }
+  a {
+    font-size: small;
+  }
+}
+
+@media (max-width: 600px) {
+ body {
+  background-color: blue;
+ }
+
+}
+
+img:hover{
+  transition: all 1s;
+  transform: scale(1.1);
+}
+
+
